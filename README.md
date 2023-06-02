@@ -9,7 +9,7 @@ The Neural Radiance Field (NeRF) is revolutionizing computer graphics with its a
 
 # This Repository
 
-This repository contains a NeRF model which used Spherical Harmonics to get the final RGB colour from a novel neural architecture (Which is inspired by Plenoctree [See here](https://alexyu.net/plenoctrees/) but different from their approaches). Additionally I learned about neural radiance field from the following course ([NerF Course Udemy](https://www.udemy.com/home/my-courses/learning/)) and highly reccommend this course for new learners.
+This repository contains a NeRF model which used Spherical Harmonics to get the final RGB colour from a novel neural architecture (Which is inspired by Plenoctree [See here](https://alexyu.net/plenoctrees/) but different from their approaches). Additionally I learned about neural radiance field from the following course ([NerF Course Udemy](https://www.udemy.com/course/neural-radiance-fields-nerf/)) and highly reccommend this course for new learners.
 
 <p align="center">
   <img src="https://github.com/Plymouth-University/2023-comp5013-gp-neural_ninjas/blob/main/Images/Picture%204.png">

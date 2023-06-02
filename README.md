@@ -12,6 +12,13 @@ The Neural Radiance Field (NeRF) is revolutionizing computer graphics with its a
 This repository contains a NeRF model which used Spherical Harmonics to get the final RGB colour from a novel neural architecture (Which is inspired by Plenoctree [See here](https://alexyu.net/plenoctrees/) but different from their approaches). Additionally I learned about neural radiance field from the following course ([NerF Course Udemy](https://www.udemy.com/course/neural-radiance-fields-nerf/)) and highly reccommend this course for new learners. The fox dataset also obtained from the above course.
 
 
+<p align="center">
+  <img src="">
+  <br />
+  <em>Figure 1: Nerf Overview and How it works </em>
+</p>
+
+
 # Architecture
 The proposed NeRF architecture consists of the following components:
 
@@ -24,8 +31,6 @@ Ray Creation: Rays are created based on the origin and direction information pro
 Rendering: The rendering process involves computing the color and density of the points along the rays. The color information is obtained by combining the color predictions from the MLP network with the transmitted light along the rays. The density information is used to compute the alpha (transmittance) values for the points.
 
 Transmittance: The transmittance values are computed using the cumulative product of the alpha values along the rays. This allows for accurate computation of the accumulated transmittance from the camera to each point.
-
-# Usage
 
 
 # Conclusion

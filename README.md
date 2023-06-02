@@ -13,7 +13,7 @@ This repository contains a NeRF model which used Spherical Harmonics to get the 
 
 
 <p align="center">
-  <img src="">
+  <img src="https://github.com/Dharmendra04/Colour-Nerf-Spherical-Harmonics/blob/main/Screenshot%202023-06-02%20at%2003.47.01.png">
   <br />
   <em>Figure 1: Nerf Overview and How it works </em>
 </p>
